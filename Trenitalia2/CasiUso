@@ -1,0 +1,45 @@
+Il progetto modella una galleria di opere d'arte alla quale possono accedere utenti
+ generici(dopo l'autenticazione) e un amministratore(memorizzato nel database in modo permanente).
+ 
+ CASI USO AMMINISTRATORE
+ 
+ L'amministratore può accedere ai servizi della galleria e ne può modificare la configurazione.
+ 
+ 
+ L'amministatore può(dopo aver effettuato il login di autorizzazione) accedere alla galleria e 
+ visualizzarne la lista degli artisti disponibili(e attualmente memorizzati nel database).
+ Per ogni artista può vedere la descrizione e le relative opere attribuite ad ogni artista.
+ 
+ 
+ L'amministatore può inserire un nuovo artista, che verrà memorizzato nella lista e reso persistito 
+ nel database(con tutti i campi opportunamente validati).Per ogni artista può inserire una nuova opera
+ (o più di una), la cui descrizione può essere visualizzata nella relativa pagina di dettaglio dell'
+ artista(nella quale c'è anche un link che restituisce un collegamento all'immagine del quadro).
+ 
+ 
+ L'amministratore può cancellare e rimuovere dal database un artista e quindi la relativa opera.
+ 
+ L'amministratore può ulteriormente modificare i dati di un artista(qualora cambiasse qualche campo) 
+ e aggiornarne quindi lo stato.
+ 
+ CASI D'USO UTENTE 
+ 
+ L'utente può accedere alla galleria e visualizzarne l'esposizione(il contentuto),non può cambiarne 
+ la struttura.
+ 
+ L'utente(dopo aver effettuato una registrazione valida,quindi il login di acceso), può visualizzare
+ tutti gli artisti presenti nella galleria e le relative opere realizzate.
+ 
+ 
+ Sia per la gestione dell'utente che in quella dell'artista, è esclusa la possibilità di inserire 
+ duplicati, in quanto è stato inserito un controllo sul nome(per quanto riguarda l'user) e sul nome, 
+ cognome e data di nascita(per quanto riguarda l'artista).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

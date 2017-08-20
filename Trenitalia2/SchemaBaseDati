@@ -1,0 +1,11 @@
+Nella base di dati, coerentemente con quanto mappato nelle classi del model nel database progetto 
+ci sono 5 tabelle.
+
+La tabella OPERA modella l'entità opera con attributi (id,titolo,dataCreazione,tecnica,dimensione,link)
+la tabella ARTISTA modella l'entità artista con attributi(id,nome,cognome,nazionalita,dataNascita,dataMorte)
+
+
+Nella modellazione delle entità che descrivono gli utenti e i relativi ruoli ci sono:
+La tabella APP_USER modella l'utente con attributi(id,nome,password,email,enabled),la password è criptata 
+La tabella RUOLO modella i ruoli disponibili, con attributi(id, nome)
+La tabella di join APP_USER_RUOLO memorizza i ruoli e e gli utenti associati con utenti_id e ruoli_id
