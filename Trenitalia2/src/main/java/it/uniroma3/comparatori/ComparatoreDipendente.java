@@ -2,7 +2,7 @@ package it.uniroma3.comparatori;
 import java.util.Comparator;
 
 import it.uniroma3.model.*;
-
+ 
 public class ComparatoreDipendente implements Comparator<Dipendente> {
 
 	@Override
